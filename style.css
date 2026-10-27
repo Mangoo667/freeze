@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+h1 {
+  text-align: center;
+  color: #31c203;
+}
+
+.playlist {
+  list-style: circle;
+  padding: 0;
+}
+
+.playlist li {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.playlist span {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+audio {
+  width: 100%;
+}
+
+.playlist li {
+  cursor: pointer;
+}
+
+.playlist li:hover {
+  background-color: green;
+}
+
+#titre-en-cours {
+  text-align: center;
+  color: #31c203;
+  font-weight: bold;
+}
+
+.boutons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 16px 0 24px;
+}
+
+.boutons button {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  background-color: #1db954;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.boutons button:hover {
+  background-color: #17a34a;
+}
+
+#pochette {
+  display: block;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 0 auto 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}

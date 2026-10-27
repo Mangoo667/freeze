@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon premier site</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Ma musique</h1>
+
+    <img id="pochette" src="pochettes/corleone_pdp.jpg" alt="Pochette de l'album">
+    <p id="titre-en-cours">Choisis un morceau</p>
+    <audio id="lecteur" controls></audio>
+
+    <div class="boutons">
+      <button id="btn-precedent">⏮ Précédent</button>
+      <button id="btn-aleatoire">🔀 Aléatoire</button>
+      <button id="btn-suivant">Suivant ⏭</button>
+    </div>
+
+    <ul class="playlist" id="playlist">
+      <li data-src="musiques/16pains_Freeze.mp3" data-pochette="pochettes/16pains_Freeze.jpg">16 Pains</li>
+      <li data-src="musiques/Apu_Freeze.mp3" data-pochette="pochettes/Apu_Freeze.jpg">Apu</li>
+      <li data-src="musiques/Gaucho_Freeze.mp3" data-pochette="pochettes/Gaucho_freeze.jpg">Gaucho</li>
+      <li data-src="musiques/Madara_Freeze.mp3" data-pochette="pochettes/FDT_Freeze.jpg">Madara</li>
+      <li data-src="musiques/WelcomeToTheParty_Freeze.mp3" data-pochette="pochettes/wlcmtotheparty_freeze.jpg">Welcome To The Party</li>
+    </ul>
+
+    <script src="script.js"></script>
+  </body>
+</html>
