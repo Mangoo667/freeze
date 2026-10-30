@@ -80,3 +80,34 @@ audio {
   margin: 0 auto 16px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
 }
+
+
+@media (max-width: 480px) {
+  body {
+    margin: 40px auto;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  #pochette {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+
+  .boutons {
+    flex-wrap: wrap;
+  }
+
+  .boutons button {
+    flex: 1 1 30%;
+    font-size: 14px;
+    padding: 12px 6px;
+  }
+
+  .playlist li {
+    padding: 18px 16px;
+  }
+}
